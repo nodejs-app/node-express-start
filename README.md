@@ -13,15 +13,19 @@ node-demo
 2. `cd node-demo`
 3. `npm install`
 4. run `node express_demo4.js` from a terminal
+5. open `http://localhost:8081/upload.html` in the broswer
 
 
 ### 项目地址：
 https://github.com/Alex-0407/node-demo
 
-#### Ionic 2 学习资源
+#### Node.js 学习资源
 
-* [How to Manipulate Data in Ionic 2: Part 2](http://www.joshmorony.com/how-to-manipulate-data-in-ionic-2-part-2/)
-* [Filtering, Mapping, and Reducing Arrays in Ionic 2](https://www.youtube.com/watch?v=A-4CLa05tp0)
+* [Node.js 菜鸟教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
+* [Node.js下载地址](https://nodejs.org/en/download/)
+* [Node.js安装教程](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+* [Node.js中文网](http://nodejs.cn/api/)
+* [Node.js官网](https://nodejs.org/en/docs/)
 
 
 
