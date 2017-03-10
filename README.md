@@ -58,8 +58,12 @@ ionic入门视频 回复“ionic提取码”领取 提取码
 微信小程序入门视频 回复“小程序提取码”领取 提取码
 
 
-#### 欢迎关注我的微信公众号 ionic实战 ，获取更多学习资源
+#### 欢迎关注我的微信公众号或头条号"ionic实战" ，获取更多学习资源及技术文章等
 
-* 扫一扫下面的二维码或者搜索"ionic实战"
+* 微信公众号二维码，扫一扫或者搜索"ionic实战"即可关注
 
 <img src="https://github.com/Alex-0407/ionic2-preview/blob/master/src/assets/img/qrcode_for_gh_ionic2.jpg" width="320px" style="display:inline;">
+
+* 今日头条号二维码，扫一扫即可关注
+
+<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/src/assets/img/toutiao.png" width="320px" style="display:inline;">
