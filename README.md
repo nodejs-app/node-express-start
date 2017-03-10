@@ -66,4 +66,4 @@ ionic入门视频 回复“ionic提取码”领取 提取码
 
 * 今日头条号二维码，扫一扫即可关注
 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/src/assets/img/toutiao.png" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/node-demo/blob/master/toutiao.jpg" width="320px" style="display:inline;">
