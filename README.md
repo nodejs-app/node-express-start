@@ -12,7 +12,7 @@ node-demo
 1. clone this repo: `git clone https://github.com/Alex-0407/node-demo.git` or download
 2. `cd node-demo`
 3. run `node express_demo4.js` from a terminal
-4. open `http://localhost:8081/upload.html` in the broswer
+4. open `http://localhost:8081/upload.html` in the browser
 
 
 ### 项目地址：
