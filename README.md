@@ -31,7 +31,33 @@ https://github.com/Alex-0407/node-demo
 * [Node.js koa/koa2](http://koa.bootcss.com/#introduction)
 * [Node.js koa-grace 支持MVC](https://github.com/xiongwilee/koa-grace/tree/v2.x)
 
+###笔记
 
+js 全局对象 window
+nodejs全局对象 global
+
+nodes模块
+每个文件就是一个模块
+
+__filename当前文件被解析后的绝对路径 模块作用域内
+外部不能直接访问
+如果想要在一个模块中访问另一个模块中定义的变量
+1.把变量作为global对象的一个属性，但是不推荐这种做法
+2.使用模块队形module（module保存当前模块有关的信息）
+在module对象下有一个子对象，可以通过这个对象把模块中的局部变量供外部访问
+
+var m5＝require（./2.js） m5就是2.js的module.export
+
+模块加载系统
+require(‘模块地址’) 
+注意：不能直接写require(‘2.js’) 会加载npde中的核心模块或node——modules
+首先会按照加载模块的文件名进行查找
+如果没有找到，会自动在文件名后面加上.js
+如果还没有找到，就会在文件名称后加.json
+如果还没有找到，就会在文件名称后加.node
+如果还没有找到，就会抛出错误
+
+process是一个全局变量，和当前程序有关的进程和细节
 
 ### 新浪云活动
 新浪云平台Sina App Engine(SAE)，是由新浪公司开发和运营的开放云计算平台的核心组成部分，国内第一家公有云计算平台，可以为网站开发者，App开发者提供稳定、快捷、透明、可控的服务化的平台，并且减少开发者的开发和维护成本。
