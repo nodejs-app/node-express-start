@@ -9,14 +9,14 @@ node-demo
 
 ### Installation & Development
 
-1. clone this repo: `git clone https://github.com/Alex-0407/node-demo.git` or download
-2. `cd node-demo`
+1. clone this repo: `git clone https://github.com/Alex-0407/node-express-start.git` or download
+2. `cd node-express-start`
 3. run `node express_demo4.js` from a terminal
 4. open `http://localhost:8081/upload.html` in the browser
 
 
 ### 项目地址：
-https://github.com/Alex-0407/node-demo
+https://github.com/Alex-0407/node-express-start
 
 #### Node.js 学习资源
 
@@ -92,4 +92,4 @@ ionic入门视频 回复“ionic提取码”领取 提取码
 
 * 今日头条号二维码，扫一扫即可关注
 
-<img src="https://github.com/Alex-0407/node-demo/blob/master/toutiao.jpg" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/node-express-start/blob/master/toutiao.jpg" width="320px" style="display:inline;">
