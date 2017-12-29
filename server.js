@@ -8,7 +8,7 @@ var path=require('path');
 
 var server = http.createServer(function (request, response) {
     var pathname = url.parse(request.url).pathname;
-    var realPath = path.join("../public", pathname);
+    var realPath = path.join("./public", pathname);
     //console.log(realPath);
     var ext = path.extname(realPath);
     ext = ext ? ext.slice(1) : 'unknown';
