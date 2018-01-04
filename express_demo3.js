@@ -40,7 +40,7 @@ app.get('/index.html', function(req,res){
 	res.sendFile(__dirname + "/" + "index.html");
 })
 
-app.get('/demo.html', function(req,res){
+app.get('/form.html', function(req,res){
 	res.sendFile(__dirname + "/" + "demo.html");
 })
 
@@ -64,7 +64,7 @@ app.post('/process_post', urlencodeParser, function(req,res){
 	res.end(JSON.stringify(response));
 })
 
-var server = app.listen(8081, function(){
+var server = app.listen(4000, function(){
     var host = server.address().address;
     var port = server.address().port;
     console.log("应用实例，访问地址为：http://%s:%s",host,port);

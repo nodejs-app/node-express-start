@@ -40,7 +40,7 @@ sql.on('error', err => {
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extend: false}));
-app.use(multer({dest: '/tmp/'}).array('image'));
+app.use(multer({dest: './upload-dir/'}).array('images'));
 
 //get请求
 app.get('/', function(req,res){
@@ -175,9 +175,9 @@ app.post('/process_post', urlencodeParser, function(req,res){
 	res.end(JSON.stringify(response));
 })
 
-app.post('/file_upload', function(req,res){
+app.post('/upload', function(req,res){
 	console.log(req.files[0]);//上传的文件信息
-	var des_file = __dirname + '/' + req.files[0].originalname;
+	var des_file = __dirname + '/upload-dir/' + req.files[0].originalname;
 	fs.readFile(req.files[0].path,function(error,data){
 		fs.writeFile(des_file, data, function(error){
 			if(error) {
@@ -194,7 +194,7 @@ app.post('/file_upload', function(req,res){
 	});
 })
 
-var server = app.listen(8081, function(){
+var server = app.listen(4000, function(){
     var host = server.address().address;
     var port = server.address().port;
     console.log("应用实例，访问地址为：http://%s:%s",host,port);

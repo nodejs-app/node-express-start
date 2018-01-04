@@ -30,7 +30,7 @@ app.get('/ab*cd', function(req,res){
 	res.send('正则匹配');
 })
 
-var server = app.listen(8081, function(){
+var server = app.listen(4000, function(){
     var host = server.address().address;
     var port = server.address().port;
     console.log("应用实例，访问地址为：http://%s:%s",host,port);
