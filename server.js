@@ -39,5 +39,5 @@ var server = http.createServer(function (request, response) {
         }
     });
 });
-server.listen(PORT);
+server.listen(process.env.PORT || 8080);
 console.log("Server runing at port: " + PORT + ".");
